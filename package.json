@@ -14,7 +14,7 @@
     "lint": "eslint --fix --ext .ts,.tsx ./src"
   },
   "dependencies": {
-    "stencil-eslint-core": "~0.2.0",
+    "stencil-eslint-core": "~0.3.0",
     "tsutils": "~3.21.0"
   },
   "peerDependencies": {
