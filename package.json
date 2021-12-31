@@ -14,10 +14,8 @@
     "lint": "eslint --fix --ext .ts,.tsx ./src"
   },
   "dependencies": {
-    "airbnb": "0.0.2",
     "stencil-eslint-core": "~0.2.0",
-    "tsutils": "~3.21.0",
-    "uninstall": "0.0.0"
+    "tsutils": "~3.21.0"
   },
   "peerDependencies": {
     "@typescript-eslint/parser": "^5.8.0",
@@ -27,15 +25,8 @@
     "@types/eslint": "~8.2.1",
     "@types/estree": "~0.0.50",
     "@types/jest": "~27.4.0",
-    "@typescript-eslint/eslint-plugin": "~5.8.1",
     "@typescript-eslint/parser": "~5.8.1",
     "eslint": "~8.5.0",
-    "eslint-config-airbnb": "~19.0.4",
-    "eslint-plugin-header": "~3.1.1",
-    "eslint-plugin-import": "~2.25.3",
-    "eslint-plugin-jsx-a11y": "~6.5.1",
-    "eslint-plugin-react": "~7.28.0",
-    "eslint-plugin-react-hooks": "~4.3.0",
     "eslint-utils": "~3.0.0",
     "jest": "~27.4.5",
     "jest-cli": "~27.4.5",
