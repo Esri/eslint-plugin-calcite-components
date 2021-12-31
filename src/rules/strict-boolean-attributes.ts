@@ -32,7 +32,7 @@ const rule: Rule.RuleModule = {
 
         return {
             ...stencil.rules,
-            'ClassProperty': (node: any) => {
+            'PropertyDefinition': (node: any) => {
                 const propDecorator = getDecorator(node, 'Prop');
                 if (stencil.isComponent() && propDecorator) {
                     const initializer = node.value?.value;
