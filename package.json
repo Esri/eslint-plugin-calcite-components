@@ -28,7 +28,7 @@
     "@typescript-eslint/parser": "~5.9.0",
     "eslint": "~8.6.0",
     "jest": "~27.4.5",
-    "jest-cli": "~27.4.5",
+    "jest-cli": "~28.0.1",
     "np": "~7.6.0",
     "rollup": "~2.63.0",
     "rollup-plugin-node-resolve": "^5.2.0",
