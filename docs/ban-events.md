@@ -1,6 +1,6 @@
 # ban-events
 
-Helps catch prevent usage of specific events and allows suggesting alternatives. This rule can be helpful for code consistency. 
+Helps prevent usage of specific events and allows suggesting alternatives. This rule can be helpful for code consistency. 
 
 ## Config
 
