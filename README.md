@@ -41,9 +41,17 @@ npm run lint
 
 ## Supported Rules
 
+- [`@esri/calcite-components/ban-events`](./docs/ban-events.md)
+
+This rule helps prevent usage of specific events and allows suggesting alternatives.
+
 - [`@esri/calcite-components/ban-props-on-host`](./docs/ban-props-on-host.md)
 
 This rule catches props/attributes that should be in the encapsulated HTML structure and not on the host element.
+
+- [`@esri/calcite-components/require-event-emitter-type`](./docs/require-event-emitter-type.md)
+
+This rule helps enforce the payload type to EventEmitters to avoid misleading `any` type on the CustomEvent detail object.
 
 - [`@esri/calcite-components/strict-boolean-attributes`](./docs/strict-boolean-attributes.md)
 
@@ -54,6 +62,7 @@ This rule catches boolean props that are initialized in a way that does not conf
 ```json
 {
   "@esri/calcite-components/ban-props-on-host": "error",
+  "@esri/calcite-components/require-event-emitter-type": "error",
   "@esri/calcite-components/strict-boolean-attributes": "error"
 }
 ```
