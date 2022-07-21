@@ -38,8 +38,6 @@ const rule: Rule.RuleModule = {
           const propertyDefType = propertyDefNode.typeAnnotation;
           const typedAsEventEmitter = !!propertyDefType;
 
-          // const emitterType = node.typeParameters;
-          //
           if (!typedAsEventEmitter) {
             context.report({
               node,
