@@ -34,7 +34,6 @@ const rule: Rule.RuleModule = {
       ...stencil.rules,
       'PropertyDefinition > Decorator[expression.callee.name=Event]': (node: any) => {
         if (stencil.isComponent()) {
-          console.log(node, node.parent);
           const propertyDefNode = node.parent;
           const propertyDefType = propertyDefNode.typeAnnotation;
           const typedAsEventEmitter = !!propertyDefType;
