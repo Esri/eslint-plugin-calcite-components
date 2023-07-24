@@ -43,7 +43,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Esri/calcite-components-eslint-plugin.git"
+    "url": "https://github.com/Esri/eslint-plugin-calcite-components.git"
   },
   "license": "Apache-2.0"
 }
