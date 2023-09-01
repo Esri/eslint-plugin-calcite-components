@@ -1,3 +1,5 @@
+# This repository has been deprecated and moved into [@esri/calcite-components](https://github.com/Esri/calcite-design-system/)
+
 # @esri/eslint-plugin-calcite-components
 
 ESLint rules specific to Stencil JS projects.
