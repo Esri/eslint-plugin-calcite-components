@@ -1,4 +1,4 @@
-# This repository has been deprecated and moved into [@esri/calcite-components](https://github.com/Esri/calcite-design-system/)
+# This repository has been deprecated and moved into [@esri/calcite-design-system](https://github.com/Esri/calcite-design-system/)
 
 # @esri/eslint-plugin-calcite-components
 
